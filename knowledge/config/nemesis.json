@@ -1,0 +1,54 @@
+{
+  "game": {
+    "name": "Nemesis",
+    "slug": "nemesis",
+    "bgg_id": 167355
+  },
+  "processing": {
+    "chunkSize": 1000,
+    "chunkOverlap": 200,
+    "minChunkSize": 100,
+    "maxChunkSize": 2000
+  },
+  "sections": {
+    "setup": {
+      "patterns": [
+        "^Setup",
+        "^Game Setup",
+        "^Setting Up"
+      ]
+    },
+    "gameplay": {
+      "patterns": [
+        "^Gameplay",
+        "^How to Play",
+        "^Playing the Game"
+      ]
+    },
+    "components": {
+      "patterns": [
+        "^Components",
+        "^Game Components",
+        "^What's in the Box"
+      ]
+    },
+    "reference": {
+      "patterns": [
+        "^Reference",
+        "^Quick Reference",
+        "^Rules Reference"
+      ]
+    }
+  },
+  "metadata": {
+    "version": "1.0",
+    "lastProcessed": null,
+    "files": [
+      {
+        "type": "rulebook",
+        "path": "raw/nemesis/rulebook.pdf",
+        "source_type": "rulebook"
+      }
+    ]
+  }
+} 

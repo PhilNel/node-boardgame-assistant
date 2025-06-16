@@ -1,0 +1,16 @@
+{
+  "name": "boardgame-knowledge",
+  "version": "1.0.0",
+  "description": "Knowledge processing tools for board game rules",
+  "scripts": {
+    "process-pdf": "ts-node scripts/process-pdf.ts"
+  },
+  "dependencies": {
+    "pdf-parse": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+} 
